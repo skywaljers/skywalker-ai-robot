@@ -9,7 +9,7 @@ spring:
       chat:
         options:
 #          v3模型
-#          model: deepseek-chat #使用哪个模型
+          model: deepseek-chat #使用哪个模型
           temperature: 0.8 #温度值：值越高（如 0.8 或更高）， 增加随机性，生成内容更多样化、富有创造性；
 #          deepseek-R1 模型
-          model: deepseek-reasoner
+#          model: deepseek-reasoner

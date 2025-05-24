@@ -1,2 +1,2 @@
-GET http://localhost:8080/ai/generate?message=你好呀deepseek
+http://{{host}}/v1/ai/generateStream?message=你好呀,deepseek
 

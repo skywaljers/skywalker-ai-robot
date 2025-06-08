@@ -1,2 +1,2 @@
-http://{{host}}/v1/ai/generateStream?message=你好呀,deepseek
+http://{{host}}/v3/ai/generate?message=你是谁
 

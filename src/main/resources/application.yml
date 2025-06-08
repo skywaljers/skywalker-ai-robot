@@ -13,6 +13,19 @@ spring:
           temperature: 0.8 #温度值：值越高（如 0.8 或更高）， 增加随机性，生成内容更多样化、富有创造性；
 #          deepseek-R1 模型
 #          model: deepseek-reasoner
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        options:
+          model: qwen3:4b
+          temperature: 0.7
+    zhipuai:
+      base-url: https://open.bigmodel.cn/api/paas # 智谱 AI 的请求 URL, 可不填，默认值为 open.bigmodel.cn/api/paas
+      api-key: 44d2341d17f942699130aa4f209711a2.FDNwPc96t9xhaIgV # 填写智谱 AI 的 API Key, 该成你自己的
+      chat:
+        options: # 模型参数
+          model: glm-4-air # 模型名称，使用智谱 AI 哪个模型
+          temperature: 0.7 # 温度值
 logging:
   level:
     org.springframework.ai.chat.client.advisor: debug

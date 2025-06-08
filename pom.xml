@@ -47,6 +47,18 @@
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
         </dependency>
+
+        <!-- Ollama -->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-model-ollama</artifactId>
+        </dependency>
+
+        <!-- 智谱AI -->
+        <dependency>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-model-zhipuai</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

@@ -26,6 +26,13 @@ spring:
         options: # 模型参数
           model: glm-4-air # 模型名称，使用智谱 AI 哪个模型
           temperature: 0.7 # 温度值
+    openai:
+      base-url: https://api.zhizengzeng.com/v1 # OpenAI 服务的访问地址，这里使用的第三方代理商：智增增
+      api-key: sk-zk28b15112c26b4b51ed6f08f71e3fe2b806844ef2955a4f  # 填写智增增的 API Key, 该成你自己的
+      chat:
+        options:
+          model: gpt-4o # 模型名称
+          temperature: 0.7 # 温度值
 logging:
   level:
     org.springframework.ai.chat.client.advisor: debug
